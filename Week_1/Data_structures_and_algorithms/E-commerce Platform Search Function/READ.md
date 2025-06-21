@@ -49,4 +49,7 @@ However, binary search requires the array to be sorted, which can be a disadvant
    The program will display:
    - The search result (product details if found)
    - Which search method found the product
+     
+---
 
+3. **Output**  
