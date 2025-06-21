@@ -16,7 +16,7 @@ public class Main {
         // Display available products
         System.out.println("Available products:");
         for (Product product : products) {
-            System.out.println("- " + product.productName);
+            System.out.println("- " + product.getProductName());
         }
 
         // Get product name input
@@ -31,6 +31,7 @@ public class Main {
 
         // Binary Search
         Product[] sortedProducts = Arrays.copyOf(products, products.length);
+        Arrays.sort(sortedProducts, (a, b) -> a.getProductName().compareTo(b.getProductName()));
         long binaryStartTime = System.nanoTime();
         Product binaryResult = SearchAlgorithm.binarySearch(sortedProducts, searchName);
         long binaryEndTime = System.nanoTime();
@@ -52,6 +53,7 @@ public class Main {
         } else {
             System.out.println("\nBoth searches took the same time.");
         }
+        System.out.println("\n");
 
         scanner.close();
     }

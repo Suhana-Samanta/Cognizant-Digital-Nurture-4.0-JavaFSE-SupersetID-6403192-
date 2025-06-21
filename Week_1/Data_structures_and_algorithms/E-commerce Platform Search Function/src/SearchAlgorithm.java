@@ -4,7 +4,7 @@ public class SearchAlgorithm {
     // Linear Search
     public static Product linearSearch(Product[] products, String name) {
         for (Product product : products) {
-            if (product.productName.equalsIgnoreCase(name)) {
+            if (product.getProductName().equalsIgnoreCase(name)) {
                 return product;
             }
         }
@@ -12,14 +12,12 @@ public class SearchAlgorithm {
     }
 
     // Binary Search
-    public static Product binarySearch(Product[] products, String name) {
-        Product[] sortedProducts = Arrays.copyOf(products, products.length);
-        Arrays.sort(sortedProducts, (a, b) -> a.productName.compareTo(b.productName));
+    public static Product binarySearch(Product[] sortedProducts, String name) {
         int left = 0;
         int right = sortedProducts.length - 1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            int compare = sortedProducts[mid].productName.compareToIgnoreCase(name);
+            int compare = sortedProducts[mid].getProductName().compareToIgnoreCase(name);
             if (compare == 0) {
                 return sortedProducts[mid];
             } else if (compare < 0) {
