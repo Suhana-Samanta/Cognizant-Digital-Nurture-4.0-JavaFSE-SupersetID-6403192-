@@ -7,14 +7,7 @@ public class FinancialForecast {
         this.scanner = new Scanner(System.in);
     }
 
-    /**
-     * Calculates the future value using a recursive approach.
-     * 
-     * @param currentValue The current value of the investment.
-     * @param rate         The growth rate.
-     * @param years        The number of years.
-     * @return The predicted future value.
-     */
+   
     public double predictFutureValue(double currentValue, double rate, int years) {
         if (years == 0) {
             return currentValue;
@@ -34,6 +27,8 @@ public class FinancialForecast {
 
         double futureValue = predictFutureValue(currentValue, rate, years);
         System.out.printf("Predicted Value after %d years: %.2f\n", years, futureValue);
+
+        System.out.print("\n");
     }
 
     public void run() {
