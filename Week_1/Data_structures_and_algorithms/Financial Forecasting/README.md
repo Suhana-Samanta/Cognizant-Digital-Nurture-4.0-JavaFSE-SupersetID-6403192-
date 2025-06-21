@@ -36,5 +36,5 @@ This solution can be optimized:
 - **Iterative approach**: Use a loop instead of recursion for better efficiency on large inputs.
 - **Direct formula**: Use the compound interest formula for an instant result
 
-  ### Output 
-![image alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/tree/0edf23b18f8c592adc7e31fe837b7f60007a566e/Week_1/Data_structures_and_algorithms/Financial%20Forecasting/Output)
+### Output 
+![image alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/a81602a84dbbf4ef4ff05197e5277c36c2333535/Week_1/Data_structures_and_algorithms/Financial%20Forecasting/Output/Output1.png)
