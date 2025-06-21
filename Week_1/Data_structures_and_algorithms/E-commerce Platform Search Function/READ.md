@@ -49,4 +49,15 @@ However, binary search requires the array to be sorted, which can be a disadvant
    The program will display:
    - The search result (product details if found)
    - Which search method found the product
+     
+---
+
+4. **Output-**
+
+   ![image alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/b43c1c2623c42027d45c29a86d3844585ca77371/Week_1/Data_structures_and_algorithms/E-commerce%20Platform%20Search%20Function/Output/Output1.png)
+   
+ ![image alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/2910efef72e099082c8b16e6aad9bc71d03758e0/Week_1/Data_structures_and_algorithms/E-commerce%20Platform%20Search%20Function/Output/Output2.png)
+ 
+![image alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/b43c1c2623c42027d45c29a86d3844585ca77371/Week_1/Data_structures_and_algorithms/E-commerce%20Platform%20Search%20Function/Output/Output3.png
+)
 
