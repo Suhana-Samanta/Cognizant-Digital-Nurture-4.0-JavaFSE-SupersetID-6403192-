@@ -34,4 +34,7 @@ Each recursive call reduces the problem size by `1`, resulting in `n` recursive 
 This solution can be optimized:
 - **Memoization**: Store results of previous calculations to avoid recomputation.
 - **Iterative approach**: Use a loop instead of recursion for better efficiency on large inputs.
-- **Direct formula**: Use the compound interest formula for an instant result:
+- **Direct formula**: Use the compound interest formula for an instant result
+
+  ### Output 
+![image alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/tree/0edf23b18f8c592adc7e31fe837b7f60007a566e/Week_1/Data_structures_and_algorithms/Financial%20Forecasting/Output)
