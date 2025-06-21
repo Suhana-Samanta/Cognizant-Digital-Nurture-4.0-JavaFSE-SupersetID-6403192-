@@ -52,4 +52,7 @@ However, binary search requires the array to be sorted, which can be a disadvant
      
 ---
 
-3. **Output**  
+4. **Output-**
+   Week_1/Data_structures_and_algorithms/E-commerce Platform Search Function/Output/Output1.png
+Week_1/Data_structures_and_algorithms/E-commerce Platform Search Function/Output/Output2.png
+Week_1/Data_structures_and_algorithms/E-commerce Platform Search Function/Output/Output3.png
