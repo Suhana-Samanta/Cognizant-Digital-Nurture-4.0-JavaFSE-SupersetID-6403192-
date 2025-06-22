@@ -28,8 +28,9 @@ public class FinancialForecast {
         double futureValue = predictFutureValue(currentValue, rate, years);
         System.out.printf("Predicted Value after %d years: %.2f\n", years, futureValue);
 
-        System.out.print("\n");
+        
     }
+    
 
     public void run() {
         getUserInput();
