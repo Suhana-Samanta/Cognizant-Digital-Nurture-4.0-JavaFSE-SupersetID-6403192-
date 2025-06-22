@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Singleton Pattern Example
 
 This project demonstrates how to implement the **Singleton design pattern** for a logging utility class.  
