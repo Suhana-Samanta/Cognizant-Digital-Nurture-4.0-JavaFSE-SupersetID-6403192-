@@ -14,3 +14,4 @@ The system uses the **Factory Method Pattern** to:
 ---
 
 ## Output
+![alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/f0ddd3514edbf541fb1eb1ad542d0a5e701ee653/Week_1/Design%20and%20Pattern/Factory%20Method%20Pattern%20Implementation/output/output.png)
