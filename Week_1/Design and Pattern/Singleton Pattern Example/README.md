@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Singleton Pattern Example
 
 This project demonstrates how to implement the **Singleton design pattern** for a logging utility class.  
@@ -45,3 +46,17 @@ Create a test class (e.g., `Main`) to verify:
 1️⃣ **Compile the Java files**
 ```bash
 javac Logger.java Main.java
+=======
+# Singleton Pattern Example
+
+This project demonstrates how to implement the **Singleton design pattern** for a logging utility class.  
+The goal is to ensure that only one instance of the logger exists throughout the application lifecycle to provide consistent logging.
+
+We need to ensure that a logging utility class in my application has only one instance across the entire application.
+
+---
+
+## Output- 
+![alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/b2761a826c6c2aa19e7e6b412daef134ba417157/Week_1/Design%20and%20Pattern/Singleton%20Pattern%20Example/Output/output1.png)
+
+>>>>>>> 21ed27c64170b5033cc987db5b93fd32e1c39b26
