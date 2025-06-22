@@ -8,5 +8,5 @@ We need to ensure that a logging utility class in my application has only one in
 ---
 
 ## Output- 
-![alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/tree/bce3a8b355b9ccd67aed4517e5fc111a85971cf7/Week_1/Design%20and%20Pattern/Singleton%20Pattern%20Example/Output)
+![alt text](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/b2761a826c6c2aa19e7e6b412daef134ba417157/Week_1/Design%20and%20Pattern/Singleton%20Pattern%20Example/Output/output1.png)
 
