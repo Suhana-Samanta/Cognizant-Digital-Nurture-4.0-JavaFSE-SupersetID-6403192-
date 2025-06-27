@@ -32,5 +32,5 @@ README.md
 14:42:12.123 [main] ERROR org.suhana.logging.Logging - This is an error message  
 14:42:12.124 [main] WARN  org.suhana.logging.Logging - This is a warning message  
 
-## Screenshot
+## Output-
 ![output](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/41a7e494c89652ec108c2bb05d7fc58f260b9376/Week%202/SLF4J%20logging%20Exercises/Exercise%201/output/output.png)
