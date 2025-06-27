@@ -22,6 +22,8 @@ A test class was written using **Mockito** to mock User Service and verify contr
 ## ✅ Output
 
 The test was executed successfully, and the mock service provided the expected response, verifying the controller's correctness.
+![Mockito Mocking and Stubbing Output](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%202/TDD%20using%20JUnit5%20%26%20Mockito/Mockito%20Ex%201%20(Mocking%20n%20Stubbing)/output/output.png?raw=true)
+
 
 ## 📁 Output Location
 
