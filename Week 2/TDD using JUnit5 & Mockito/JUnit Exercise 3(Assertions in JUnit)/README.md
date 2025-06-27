@@ -30,7 +30,7 @@ The following assertion methods were demonstrated:
 ## ✅ Output
 
 All assertions were executed successfully, confirming the correctness of each test condition.
-[Click here to view the output image](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%202/TDD%20using%20JUnit5%20%26%20Mockito/JUnit%20Exercise%203(Assertions%20in%20JUnit)/output/output.png)
+[View Output Image (Assertions in JUnit)](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%202/TDD%20using%20JUnit5%20%26%20Mockito/JUnit%20Exercise%203(Assertions%20in%20JUnit)/output/output.png)
 
 
 ## 📁 Output Location
