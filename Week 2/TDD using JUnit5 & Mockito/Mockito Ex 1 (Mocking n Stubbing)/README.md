@@ -1,38 +1,29 @@
-# JUnit Testing Assignment
 
-## Overview
-This project contains exercises demonstrating Mocking and stubbing an external API using Mockito.
+# Exercise 1: Mocking a Service Dependency in a Controller Test
 
+In this exercise, a service dependency in a Spring controller was mocked using **Mockito**, and a unit test was written to verify the controller's behavior.
 
+## 📌 Task  
+The objective was to test a Spring REST controller by mocking its dependent service class to isolate functionality.
 
-## Prerequisites
-- **Java**: JDK 21.
-- **VS Code**: VS code.
-- **Build Tool**: Maven.
-- **Testing Framework**: JUnit 5 (Jupiter).
-- **Mocking Library**: Mockito.
-
-## Project Structure
-```
-src
-├── main
-│   └── java
-│       └── com.suhana
-│           ├── Calculator.java
-│           ├── ExternalApi.java
-│           └── MyService.java
-├── test
-│   └── java
-│       └── com.suhana
-│           ├── AssertionsTest.java
-│           ├── CalculatorTest.java
-│           └── MyServiceTest.java
-pom.xml 
-README.md
-```
+## 🛠 Technologies Used  
+- Java  
+- Spring Boot  
+- JUnit  
+- Mockito  
+- Maven  
+- Visual Studio Code
 
 
+### 4. UserController Test
 
+A test class was written using **Mockito** to mock User Service and verify controller behavior. The test ensured that the controller could return mocked user data without accessing the actual database.
 
-# Output
+## ✅ Output
+
+The test was executed successfully, and the mock service provided the expected response, verifying the controller's correctness.
+
+## 📁 Output Location
+
+`Week 2/TDD using JUnit5 & Mockito/Mockito Ex 1 (Mocking n Stubbing)/output`
 
