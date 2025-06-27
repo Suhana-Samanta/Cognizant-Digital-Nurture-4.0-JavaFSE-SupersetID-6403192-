@@ -30,6 +30,8 @@ The `verify()` method was used to confirm that `getData()` was called on the moc
 ## ✅ Output
 
 The test passed successfully, and Mockito confirmed that the expected interaction occurred.
+![Mockito Interaction Output](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%202/TDD%20using%20JUnit5%20%26%20Mockito/Mockito%20Ex%202(Verifying%20Interactions)/output/output.png?raw=true)
+
 
 ## 📁 Output Location
 
