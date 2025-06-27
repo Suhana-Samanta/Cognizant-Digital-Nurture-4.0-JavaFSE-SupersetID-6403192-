@@ -32,8 +32,7 @@ Exercise1\_JUnitSetup/
 
 ## ✅ Output
 
-![JUnit Output](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/a7ed1e16b0b759bad24100170ebcd62d04240e73/Week%202/TDD%20using%20JUnit5%20%26%20Mockito/JUnit%20Exercise%201(Setting%20Up%20JUnit)/output/output.png)
-
+<img src="https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/a7ed1e16b0b759bad24100170ebcd62d04240e73/Week%202/TDD%20using%20JUnit5%20%26%20Mockito/JUnit%20Exercise%201(Setting%20Up%20JUnit)/output/output.png" width="100%" height="auto">
 
 
 
