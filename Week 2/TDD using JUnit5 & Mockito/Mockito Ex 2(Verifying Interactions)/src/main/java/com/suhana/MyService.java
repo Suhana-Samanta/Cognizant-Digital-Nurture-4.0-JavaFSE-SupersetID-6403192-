@@ -1,4 +1,4 @@
-package com.sudip;
+package com.suhana;
 
 import com.external.ExternalApi;
 
@@ -10,6 +10,6 @@ public class MyService {
     }
 
     public void fetchData() {
-        externalApi.getData("Sudip", 5);
+        externalApi.getData("Suhana", 5);
     }
 }

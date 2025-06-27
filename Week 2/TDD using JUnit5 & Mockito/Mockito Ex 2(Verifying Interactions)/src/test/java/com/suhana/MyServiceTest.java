@@ -1,4 +1,4 @@
-package com.sudip;
+package com.suhana;
 
 import com.external.ExternalApi;
 
@@ -28,6 +28,6 @@ public class MyServiceTest {
         service.fetchData();
 
         // HERE we VERIFY: was mockApi.getData called with these arguments?
-        verify(mockApi, times(1)).getData("Sudip", 5);
+        verify(mockApi, times(1)).getData("Suhana", 5);
     }
 }
