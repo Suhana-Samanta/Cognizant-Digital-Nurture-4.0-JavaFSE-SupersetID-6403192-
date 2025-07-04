@@ -84,7 +84,7 @@ Output is visible directly in the GitHub repository at:
 
 ## 🧩 Project Structure
 
-``
+```
 LibraryApp/
 ├── src/
 │   ├── main/
