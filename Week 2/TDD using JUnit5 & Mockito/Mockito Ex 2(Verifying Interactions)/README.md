@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-=======
 # Exercise 2: Verifying Interactions
 
 In this exercise, **Mockito** was used to verify that a method was called with specific arguments on a mock object during unit testing.
@@ -40,4 +38,4 @@ The test passed successfully, and Mockito confirmed that the expected interactio
 `Week 2/TDD using JUnit5 & Mockito/Mockito Ex 2(Verifying Interactions)/output`
 
 
->>>>>>> 379586b5b79aed480cc3392a25ecf65913544960
+
