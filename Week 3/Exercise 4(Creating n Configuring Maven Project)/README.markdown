@@ -1,139 +1,101 @@
-# Library Management System - Maven Project Setup
 
-## Project Overview
-This project is part of my coursework for learning the Spring Framework. The goal of this exercise was to set up a new Maven project for a Library Management application, configure it with essential Spring Framework dependencies, and ensure compatibility with Java 21. The exercise focuses on creating the project structure, adding Spring dependencies, and configuring the Maven Compiler Plugin.
+# 🏛️ Library Management Console App — Spring Core + VS Code
 
-## Project Structure
-```bash
+## 📌 Exercise: Creating and Configuring a Maven Project
+
+This Spring Core exercise demonstrates how to set up a new Maven project, add essential Spring dependencies, configure Java compatibility, and verify setup with a basic Spring context initialization.
+
+---
+
+## 📘 Scenario
+
+The objective was to configure a clean Maven-based backend setup for a Library Management system using **Spring Core** modules. This included organizing the project structure, updating the `pom.xml` with required Spring libraries, and initializing a Spring context as a setup check. The project was fully built and tested using **VS Code**.
+
+---
+
+## 🧰 Technologies Used
+
+- Java 1.8  
+- Spring Framework Core (v5.3.22)  
+- Maven 3.8.0+  
+- **Visual Studio Code** (VS Code)
+
+---
+
+## 🧪 Implementation Breakdown
+
+### 🔹 1. Maven Dependency Configuration
+
+- Added dependencies for:
+  - `spring-context`  
+  - `spring-aop`  
+  - `spring-webmvc`  
+  - `aspectjweaver` (for AOP support)
+
+- Configured the Maven Compiler Plugin to use Java 1.8 via `<source>` and `<target>`.
+
+### 🔹 2. Setup Confirmation
+
+- The `Main.java` class uses Spring’s `AnnotationConfigApplicationContext` to print a message confirming successful context initialization.
+
+---
+
+## 🖥️ Setup Instructions
+
+### Prerequisites
+
+- Java 1.8 installed and added to PATH  
+- Maven 3.8.0 or higher  
+- **VS Code** with Java and Maven extensions installed  
+
+### How to Run
+
+1. Open the project folder in **VS Code**  
+2. In the integrated terminal, run:
+
+   - Compile:
+   ```
+   mvn clean compile
+   ````
+
+   - Run manually using terminal command `mvn exec:java -D"exec.mainClass"="com.suhana.Main"`
+
+---
+
+## ✅ Sample Output
+
+````
+Spring Context Initialized!
+
+```
+
+
+---
+## 📁 Output Location
+
+Output is visible directly in the GitHub repository at:  
+`Week 3/Exercise 4(Creating n Configuring Maven Project)/Output/creating and configuring Maven Prj.png`
+
+![Output Screenshot](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%203/Exercise%204(Creating%20n%20Configuring%20Maven%20Project)/Output/creating%20and%20configuring%20Maven%20Prj.png?raw=true)
+
+---
+
+## 🧩 Project Structure
+
+```
+
 LibraryManagement/
-├── Output_Screenshot (Contains the output Screenshot)
+├── Output/
+│   └── creating and configuring Maven Prj.png
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/sudip/Main.java
+│   │   │   └── com/suhana/
+│   │   │       └── Main.java
 │   │   └── resources/
 │   └── test/
 │       └── java/
-│           └── com/sudip/
+│           └── com/suhana/
 ├── pom.xml
 └── README.md
-```
 
-## Setup 
-- **Java**: JDK 21
-- **Maven**: 3.8.0 
-- **IDE**: IntelliJ IDEA Ultimate (used for development)
-- **Dependencies**: Spring Framework 5.3.22 (specified in `pom.xml`)
-
-### Steps
-1. **Create the Maven Project**:
-  
-
-2. **Update pom.xml**:
-   - Add dependencies for Spring Context, Spring AOP, Spring WebMVC, and the AspectJ Weaver (required for AOP).
-   - Configure the Maven Compiler Plugin for Java 1.8.
-   - Save the `pom.xml` and reload the Maven project in IntelliJ (use the **Maven** tab and click **Reload All Maven Projects**).
-
-
-
-## Implementation Details
-- **Maven Configuration** (`pom.xml`):
-  - Added dependencies for `spring-context`, `spring-aop`, and `spring-webmvc` (version 5.3.22) to enable Spring Core, AOP, and MVC features.
-  - Included `aspectjweaver` for AOP support.
-  - Configured the Maven Compiler Plugin to compile with Java 1.8.
-- **Tools Used**:
-  - IntelliJ IDEA Ultimate for project creation and management.
-  - Maven for dependency management and build automation.
-
-## Challenges Faced
-- Ensuring the correct Spring version (5.3.22) compatible with Java 1.8 was critical, as newer versions require higher Java versions.
-- Reloading the Maven project in IntelliJ was necessary to resolve dependency issues after updating `pom.xml`.
-
-## Codes
-
-### pom.xml
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.sudip</groupId>
-    <artifactId>LibraryManagement</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <spring.version>5.3.22</spring.version>
-    </properties>
-
-    <dependencies>
-        <!-- Spring Context -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <!-- Spring AOP -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <!-- Spring WebMVC -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <!-- Required for Spring AOP -->
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.9.9</version>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <!-- Maven Compiler Plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
-```
-
-### Main.java 
-
-```java
-package com.sudip;
-
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-public class Main {
-    public static void main(String[] args) {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-
-        System.out.println("Spring Context Initialized!");
-        context.close();
-    }
-}
-
-```
-
-## Output Screenshot:
-
-![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week3_Spring%20Core%20and%20Maven/Exercise%204%20-%20Creating%20and%20Configuring%20a%20Maven%20Project/Output_Screenshot/LibraryManagement.png?raw=true)
