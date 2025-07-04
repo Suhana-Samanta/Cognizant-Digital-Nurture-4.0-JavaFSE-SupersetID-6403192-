@@ -1,6 +1,4 @@
 
-
-````markdown
 # 🏛️ Library Management app
 ## 📌 Exercise: Implementing Dependency Injection 
 
@@ -55,7 +53,7 @@ The main class prompts the user to enter a book name and displays output with se
 3. Run the app with clean output:
 
    ```bash
-   mvn -q exec:java "-Dexec.mainClass=com.sudip.Main"
+   mvn -q exec:java "-Dexec.mainClass=com.suhana.Main"
    ```
 4. Enter the book name when prompted
 
@@ -91,7 +89,7 @@ LibraryApp/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/sudip/
+│   │   │   └── com/suhana/
 │   │   │       ├── service/
 │   │   │       │   └── BookService.java
 │   │   │       ├── repository/
