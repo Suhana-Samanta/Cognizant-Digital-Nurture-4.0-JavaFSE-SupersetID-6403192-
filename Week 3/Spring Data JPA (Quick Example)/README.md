@@ -63,6 +63,6 @@ DEBUG --- OrmLearnApplication : countries=[Country{code='IN', name='India'}, Cou
 All logs are visible in the VS Code terminal, and a screenshot is available in:
 Week 3/Spring Data JPA (Quick Example)/output/
 
-![Output Screenshot](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%203/Spring%20Data%20JPA%20\(Quick%20Example\)/output/output.png?raw=true)
+![Output Screenshot](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%203/Spring%20Data%20JPA%20%28Quick%20Example%29/output/output.png?raw=true)
 
 
