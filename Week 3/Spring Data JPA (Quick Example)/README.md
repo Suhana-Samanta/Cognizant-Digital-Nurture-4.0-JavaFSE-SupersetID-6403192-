@@ -1,5 +1,4 @@
 
-````markdown
 # 🧪Spring Data JPA Quick Example
 
 This is a demo project showcasing how to use **Spring Boot**, **Spring Data JPA**, and **Hibernate** with an **Oracle Database** — developed entirely in **VS Code**.
