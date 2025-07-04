@@ -1,6 +1,6 @@
 
-# 🏛️ Library Management app
-## 📌 Exercise: Implementing Dependency Injection 
+# 🏛️ Library Management app  
+## 📌 Exercise: Implementing Dependency Injection  
 
 This Spring Core exercise demonstrates how to implement dependency injection using an XML configuration file, with user interaction via the console. The application simulates adding a book to a repository and prints confirmation messages.
 
@@ -46,9 +46,9 @@ The main class prompts the user to enter a book name and displays output with se
 ### How to Run (From VS Code Terminal)  
 1. Open the project folder in VS Code  
 2. Compile the project:  
-   ```bash
+   -compile
    mvn clean compile
-````
+   ````
 
 3. Run the app with clean output:
 
@@ -84,7 +84,7 @@ Output is visible directly in the GitHub repository at:
 
 ## 🧩 Project Structure
 
-```bash
+``
 LibraryApp/
 ├── src/
 │   ├── main/
