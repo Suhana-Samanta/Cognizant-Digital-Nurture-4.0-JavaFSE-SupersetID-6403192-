@@ -1,60 +1,36 @@
 
-# ✅ JUnit Assertions Assignment
+# Exercise 3: Assertions in JUnit
 
-## 📘 Overview
+In this exercise, various JUnit assertions were used to validate different test conditions in a Java application.
 
-This project demonstrates the use of various **JUnit 5 assertions** to validate test results in a Java application. The `AssertionsTest` class contains individual test methods for:
+## 📌 Scenario  
+The objective was to demonstrate the use of multiple assertion methods available in **JUnit 4** to verify expected outcomes.
 
-- `assertEquals`
-- `assertTrue`
-- `assertFalse`
-- `assertNull`
-- `assertNotNull`
-- `assertSame`
-- `assertNotSame`
-- `assertArrayEquals`
-- `assertThrows`
+## 🛠 Technologies Used  
+- Java  
+- JUnit 4 (v4.13.2)  
+- Maven  
+- Visual Studio Code
 
-The project is built with **Maven** and runs in **IntelliJ IDEA Ultimate**.
+## 🧪 Steps Followed
 
----
+### 1. Test Class Creation  
+A test class was created, and different types of assertions were implemented to validate logic conditions.
 
-## 🗂️ Project Structure
+### 2. Assertions Used  
+The following assertion methods were demonstrated:
+- `assertEquals()`
+- `assertTrue()`
+- `assertFalse()`
+- `assertNull()`
+- `assertNotNull()`
 
-```
-
-JUnit Exercise 3(Assertions in JUnit)/
-├── pom.xml
-├── README.md
-├── src/
-│   ├── main/
-│   │   └── java/           
-│   └── test/
-│       └── java/
-│           └── com/example/
-│               └── AssertionsTest.java
-├── output/                  (contains screenshot)
-└── target/                 
-
-
-
----
-
-## 🧾 Test Summary
-
-| Method                  | Description                                            |
-| ----------------------- | ------------------------------------------------------ |
-| `testAssertEquals`      | Verifies that `2 + 3 == 5`                             |
-| `testAssertTrue`        | Confirms a condition is `true`                         |
-| `testAssertFalse`       | Confirms a condition is `false`                        |
-| `testAssertNull`        | Asserts that a value is `null`                         |
-| `testAssertNotNull`     | Asserts that a value is **not** `null`                 |
-| `testAssertSame`        | Confirms two variables reference the **same** object   |
-| `testAssertNotSame`     | Confirms two variables reference **different** objects |
-| `testAssertArrayEquals` | Compares contents of two arrays                        |
-| `testAssertThrows`      | Asserts that an exception is thrown                    |
-
----
+````
 
 ## ✅ Output
+All assertions were executed successfully, confirming the correctness of each test condition.
+
+## 📁 Output Location
+`Week 2/TDD using JUnit5 & Mockito/JUnit Exercise 3(Assertions in JUnit)/output`
+
 
