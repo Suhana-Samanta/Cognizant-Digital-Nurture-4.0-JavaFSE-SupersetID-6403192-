@@ -82,7 +82,9 @@ Book added successfully: Fullmetal Alchemist
 
 ## 📁 Output Location
 
-Output is visible directly in the github file .
+Output is visible directly in the github file Week 3/Exercise 1(Configuring a Basic Spring App)/output
+![output](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%203/Exercise%201(Configuring%20a%20Basic%20Spring%20App)/output/successfully%20running%20the%20Basic%20Spring%20app.png?raw=true)
+
 
 ---
 
