@@ -64,7 +64,7 @@ The objective was to configure a clean Maven-based backend setup for a Library M
 
 ## ✅ Sample Output
 
-````
+```
 Spring Context Initialized!
 
 ```
