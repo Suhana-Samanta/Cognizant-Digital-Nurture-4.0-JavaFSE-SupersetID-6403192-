@@ -1,4 +1,4 @@
-package com.sudip.repository;
+package com.suhana.repository;
 
 public class BookRepositoryImpl implements BookRepository {
     @Override

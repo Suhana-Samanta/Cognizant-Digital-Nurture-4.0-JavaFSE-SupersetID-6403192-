@@ -1,6 +1,6 @@
-package com.sudip.service;
+package com.suhana.service;
 
-import com.sudip.repository.BookRepository;
+import com.suhana.repository.BookRepository;
 
 public class BookService {
     private BookRepository bookRepository;
