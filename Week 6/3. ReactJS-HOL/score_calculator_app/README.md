@@ -1,6 +1,3 @@
-Here is your **updated and polished README.md** with the newly requested sections, proper markdown formatting, and images included using `?raw=true`:
-
----
 
 # 📊 Score Calculator React App
 
