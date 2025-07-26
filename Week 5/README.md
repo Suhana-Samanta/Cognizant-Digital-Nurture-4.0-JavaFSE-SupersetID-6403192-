@@ -39,17 +39,31 @@ Once all services are running and registered with Eureka, the following URLs can
 
 ---
 
-## 📸 Output Screenshots
+## 📸 Output
 
-### ✅ Eureka Server Dashboard
-
-![Eureka Server](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%205/outout/Eureka%20Server.png)
+\| ![Eureka Server](https://raw.githubusercontent.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/main/Week%205/output/Eureka%20Server.png) |
+ ![Microservices Running](https://raw.githubusercontent.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/main/Week%205/output/running%20of%20Microservices.png) |
 
 ---
 
-### 🟢 Running Microservices
+## 📁 Output Location
 
-![Microservices Running](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%205/outout/running%20of%20Microservices.png)
+`Week 5/output`
+
+---
+
+## 📁 Folder Structure Overview
+
+```bash
+Week 5/
+├── api-gateway/
+├── account-service/
+├── loan-service/
+├── eureka-discovery-server/
+└── output/
+    ├── Eureka Server.png
+    └── running of Microservices.png
+```
 
 ---
 
@@ -80,9 +94,4 @@ Once all services are running and registered with Eureka, the following URLs can
 * Spring Cloud Gateway (WebFlux)
 * Maven
 
-
-
 ---
-
-Let me know if you want to include controller code samples or a demo video section too!
-```
