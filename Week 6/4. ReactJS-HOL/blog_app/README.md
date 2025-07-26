@@ -54,10 +54,9 @@ Each blog post includes:
 
 ```json
 {
-  "userId": 1,
-  "id": 1,
-  "title": "Post title here...",
-  "body": "Post content here..."
+
+  "Post title here...",
+  "Post content here..."
 }
 ````
 
