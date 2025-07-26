@@ -55,18 +55,7 @@ score_calculator_app/
 * [Node.js](https://nodejs.org/) (v18 or higher recommended)
 * npm (comes pre-installed with Node.js)
 
-### ▶️ Steps
 
-```bash
-# Step 1: Navigate to the app directory
-cd score_calculator_app
-
-# Step 2: Install project dependencies
-npm install
-
-# Step 3: Run the development server
-npm start
-```
 
 Your app will be available at:
 👉 [http://localhost:3000](http://localhost:3000)
