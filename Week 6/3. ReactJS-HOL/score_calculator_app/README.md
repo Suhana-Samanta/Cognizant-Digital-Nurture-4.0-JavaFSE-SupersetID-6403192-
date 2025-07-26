@@ -1,30 +1,33 @@
 
 # 📊 Score Calculator React App
 
-Welcome to the **Score Calculator App**, built with **ReactJS** during Week 6 of the Java FSE Digital Nurture Program by Cognizant.
-This app calculates and displays a student’s score as a percentage with styled output using custom CSS.
+Welcome to the **Score Calculator App**, built with **ReactJS** during **Week 6** of the **Java FSE Digital Nurture Program** by Cognizant.
+This app calculates and displays a student’s score as a percentage with a styled layout using custom CSS.
 
 ---
 
 ## ✨ Features
 
 * Built using `create-react-app`
-* React component for student score display
-* Color-coded CSS classes for clarity
-* Responsive and centered layout
-* Clean folder structure
+* Functional React component to display student details
+* Custom logic for score calculation
+* CSS-based visual formatting with colored fields
+* Responsive, center-aligned layout
+* Clean and minimal folder structure
 
 ---
 
-## 📸 Output
+## 📸 Output Screenshots
 
-### ✅ App running on local server
+### ✅ App Running on Localhost
 
-![Localhost Running](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/3.%20ReactJS-HOL/score_calculator_app/Output/local%20host.png)
+![React App on Localhost](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/3.%20ReactJS-HOL/score_calculator_app/Output/react%20app%20on%20local%20host%20\(1\).png)
 
-### ✅ VS Code with Code + Output
+---
 
-![Code and Output](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/3.%20ReactJS-HOL/score_calculator_app/Output/code%20and%20output.png)
+### ✅ VS Code Compilation + Code Output
+
+![Code and Compilation](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/3.%20ReactJS-HOL/score_calculator_app/Output/code%20and%20compilation.png)
 
 ---
 
@@ -35,12 +38,12 @@ score_calculator_app/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── App.js                 # Main component
-│   ├── CalculateScore.js      # Functional component for score calculation
-│   ├── mystyle.css            # Custom CSS styles
-│   └── index.js               # React entry point
-├── package.json               # Project metadata and dependencies
-└── README.md                  # This file
+│   ├── App.js               # Main wrapper component
+│   ├── CalculateScore.js    # Score display logic and props
+│   ├── mystyle.css          # Custom CSS for styled output
+│   └── index.js             # Entry point of the app
+├── package.json             # Dependencies and scripts
+└── README.md                # This file
 ```
 
 ---
@@ -49,36 +52,30 @@ score_calculator_app/
 
 ### ✅ Prerequisites
 
-* Node.js (v18 or higher recommended)
-* npm (comes with Node.js)
+* [Node.js](https://nodejs.org/) (v18 or higher recommended)
+* npm (comes pre-installed with Node.js)
 
 
 
-The app will run at:
-
+Your app will be available at:
 👉 [http://localhost:3000](http://localhost:3000)
 
 ---
 
 ## 🎨 Styling Overview
 
-The app uses a separate `mystyle.css` for stylized output:
+Defined in `mystyle.css`, these classes style different sections:
 
-* `.formatstyle` → Layout and center alignment
-* `.Name`, `.School`, `.Total`, `.Score` → Colored sections
+| CSS Class      | Description                  | Example Color   |
+| -------------- | ---------------------------- | --------------- |
+| `.formatstyle` | Center alignment + font size | Centered layout |
+| `.Name`        | Student's name               | Blue            |
+| `.School`      | School name                  | Crimson         |
+| `.Total`       | Total marks                  | DarkMagenta     |
+| `.Score`       | Calculated score             | ForestGreen     |
 
 ---
 
-## 🧠 Component Example
+## 🧠 Component Usage Example
 
-### Props Passed to `CalculateScore`:
-
-```jsx
-<CalculateScore 
-  Name="Steeve" 
-  School="DNV Public School" 
-  total={284} 
-  goal={3}
-/>
-```
-
+The app uses a **reusable functional component** `CalculateScore` that accepts the following props:
