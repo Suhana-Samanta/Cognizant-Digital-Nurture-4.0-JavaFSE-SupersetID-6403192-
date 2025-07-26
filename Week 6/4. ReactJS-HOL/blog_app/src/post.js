@@ -14,3 +14,4 @@ class post extends React.Component {
 }
 
 export default post;
+
