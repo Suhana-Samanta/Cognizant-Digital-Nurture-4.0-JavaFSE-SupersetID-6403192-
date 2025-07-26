@@ -1,101 +1,62 @@
-This is the second react application (student management portal) for Cognizant's DN 4.0 program 
 
-Created the app with the command :
+# 🎓 Student App – ReactJS Hands-on Lab
+
+This is a simple multi-component React application built as part of the **ReactJS Hands-on Lab** during **Week 6** of the **Java FSE Digital Nurture Program by Cognizant**.
+
+---
+
+## ✨ Features
+
+- Built with `create-react-app`
+- Contains multiple components: `Home`, `About`, and `Contact`
+- Styled using CSS Flexbox and centralized layout
+- Clean, modular file structure
+
+---
+
+## 📸 Output Screenshots
+
+### ✅ App code with output side-by-side
+![Code and running app](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/2.%20ReactJS-HOL/student_app/Output/code%20and%20running%20app.png)
+
+### ✅ App running on localhost
+![React app on localhost](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/2.%20ReactJS-HOL/student_app/Output/local%20host.png)
+
+---
+
+## 📁 Folder Structure
 
 ```bash
- npx create-react-app myfirstreact .
-```
+student_app/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── Home.js          # Home component
+│   │   ├── About.js         # About component
+│   │   └── Contact.js       # Contact component
+│   ├── App.js               # Renders all components
+│   ├── App.css              # Styling for layout
+│   ├── index.js             # Entry point
+│   └── reportWebVitals.js   # Performance tool (optional)
+├── package.json             # Project dependencies and scripts
+└── README.md                # This file
+````
 
-## Code :
+---
 
-### About.js 
+## 🖥️ How to Run Locally
 
-```jsx
-import React, { Component } from "react";
-export class About extends Component{
-    render(){
-        return(
-        <div>
-            <h3>Welcome to the About page of the Student Management Portal</h3>
-        </div>)
-    }
-}
+### ✅ Prerequisites
 
-```
+* [Node.js](https://nodejs.org/) installed
+* npm (comes with Node.js)
 
-### Contact.js 
-
-```jsx
-import React, { Component } from "react";
-export class Contact extends Component{
-    render(){
-        return(
-        <div>
-            <h3>Welcome to the Contact page of the Student Management Portal</h3>
-        </div>)
-    }
-}
 
 ```
-### Home.js 
+ app will run at:
+👉 [http://localhost:3000](http://localhost:3000)
 
-```jsx
-import React, { Component } from "react";
-export class About extends Component{
-    render(){
-        return(
-        <div>
-            <h3>Welcome to the Home page of the Student Management Portal</h3>
-        </div>)
-    }
-}
-
-```
-
-### App.js 
-
-```jsx
-import './App.css';
-import {Home} from './components/Home';
-import {About} from './components/About';
-import {Contact} from './components/Contact';
-
-function App() {
-  return (
-    <div className="container">
-      <Home/>
-      <About/>
-      <Contact/>
-    </div>
-  );
-}
-
-export default App;
-
-```
-
-### App.css 
-
-```css
-
-.container {
-  padding: 20px;
-  max-width: 1200px;
-  margin: auto; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-body {
-  font-family: Arial, sans-serif;
-  font-style: italic;
-  margin: 0;
-}
-
-```
-
-## Output 
-
-![output](https://github.com/SudipSarkar1193/Digital-Nurture-4.0-JavaFSE/blob/main/Week6_React/2.%20ReactJS-HOL/student_app/Output_Screenshot/OUTPUT.png?raw=true)
+---
