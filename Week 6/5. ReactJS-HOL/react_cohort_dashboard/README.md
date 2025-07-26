@@ -1,6 +1,3 @@
-Great! Here's the updated **README.md** draft incorporating your new instructions (without the images for now):
-
----
 
 # 🧑‍💻 React Cohort Dashboard (Styled)
 
@@ -17,16 +14,6 @@ This project demonstrates how to:
 * Apply styles using **CSS Modules** and **inline styles**
 * Use `className` and `style` props effectively in React
 
----
-
-## 🛠️ Skills You’ll Practice
-
-* Styling React components
-* Working with CSS Modules (`.module.css`)
-* Inline styling using the `style` prop
-* Applying dynamic styling based on component props
-
----
 
 ## 📁 Project Description
 
@@ -84,17 +71,17 @@ Example:
 * Node.js (v18+)
 * npm
 
-### ▶️ Steps
-
-```bash
-git clone <repo-url>
-cd react_cohort_dashboard
-npm install
-npm start
-```
 
 App will run on: 👉 [http://localhost:3000](http://localhost:3000)
 
 ---
 
-Let me know when you're ready to add the images — I’ll update the `📸 Output Screenshots` section for you!
+## 📸 Output Screenshots
+
+### ✅ Dashboard Display on Localhost
+
+![Dashboard on Localhost](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/5.%20ReactJS-HOL/react_cohort_dashboard/Output/cohort%20dashboard%20in%20local%20host.png)
+
+### ✅ Successfully Compiled Code in VS Code
+
+![Compilation Success](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/5.%20ReactJS-HOL/react_cohort_dashboard/Output/succefully%20compiled%20code.png)
