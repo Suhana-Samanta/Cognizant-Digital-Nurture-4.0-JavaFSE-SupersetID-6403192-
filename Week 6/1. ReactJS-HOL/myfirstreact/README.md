@@ -1,5 +1,5 @@
 
-# My First React App
+# ⚛️ My First React App
 
 Welcome to my very first React application! 🚀  
 This project was built as part of the **ReactJS Hands-on Lab** during Week 6 of the Java FSE Digital Nurture Program by Cognizant.
@@ -11,9 +11,48 @@ This project was built as part of the **ReactJS Hands-on Lab** during Week 6 of 
 - Simple React setup using `create-react-app`
 - Displays a custom heading on the home page
 - Fully styled using CSS
-- Clean file structure
+- Clean folder structure for easy navigation
 
 ---
+
+## 📸 Output Screenshots
+
+### ✅ App running on local server
+![React app on local server](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/1.%20ReactJS-HOL/myfirstreact/output/React%20app%20on%20local%20server.png)
+
+### ✅ Code editor and browser side-by-side
+![Code and app running](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%206/1.%20ReactJS-HOL/myfirstreact/output/code%20and%20running%20of%20app.png)
+
+---
+
+## 📁 Folder Structure
+
+```bash
+myfirstreact/
+├── public/
+│   ├── favicon.ico          # Tab icon for browser
+│   ├── index.html           # Main HTML file
+│   ├── logo192.png          # App icon (192x192) for PWA
+│   ├── logo512.png          # App icon (512x512) for PWA
+│   └── manifest.json        # PWA configuration
+├── src/
+│   ├── App.js               # Main component
+│   ├── App.css              # Styles for App.js
+│   └── index.js             # React entry point
+├── package.json             # Project dependencies and scripts
+└── README.md                # This file
+````
+
+---
+
+## 🖥️ How to Run Locally
+
+### ✅ Prerequisites
+
+* [Node.js](https://nodejs.org/) (v18 or higher recommended)
+* npm (comes with Node.js)
+
+
 
 ## 📂 Folder Structure
 
@@ -43,28 +82,14 @@ myfirstreact/
 - [Node.js](https://nodejs.org/) installed
 - npm (comes with Node.js)
 
-### ▶️ Steps
 
-```bash
-# 1. Clone or open the project
-cd myfirstreact
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm start
 ````
 
-Your app will run at:
+ app will run at:
 👉 [http://localhost:3000](http://localhost:3000)
 
----
-
-## 🎨 Customization
-
 The message `"Welcome to the first session of React"` is displayed in the center-top of the page.
-You can edit it inside `src/App.js` and style it in `src/App.css`.
+
 
 ---
 
