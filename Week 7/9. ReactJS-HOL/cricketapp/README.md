@@ -73,10 +73,3 @@ This project is a **ReactJS application** built as part of the **ES6 + ReactJS H
 * Apply conditional rendering and simple state toggling.
 * Combine logic and presentation effectively.
 
-
-```
-
-Let me know if you want me to:
-- Generate a `README.md` file and upload it for download
-- Help you push this to GitHub or deploy it on Vercel/GitHub Pages
-```
