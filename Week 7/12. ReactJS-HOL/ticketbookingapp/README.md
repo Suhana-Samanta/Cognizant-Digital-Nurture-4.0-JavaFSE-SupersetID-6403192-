@@ -1,6 +1,4 @@
-Here is your updated `README.md` for the **Ticket Booking App**, now with all the screenshots embedded from your GitHub repo:
 
----
 
 ## 📦 **Ticket Booking App**
 
