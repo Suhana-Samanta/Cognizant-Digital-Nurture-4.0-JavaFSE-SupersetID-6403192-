@@ -79,26 +79,6 @@ This project is a **ReactJS application** built as part of the **ES6 + ReactJS H
 
 ---
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/cricketapp.git
-   cd cricketapp
-````
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Run the app:
-
-   ```bash
-   npm start
-   ```
-
 The app will run at `http://localhost:3000`
 
 ---
