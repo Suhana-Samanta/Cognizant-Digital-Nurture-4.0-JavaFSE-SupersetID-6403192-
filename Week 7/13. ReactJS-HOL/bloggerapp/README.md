@@ -1,68 +1,78 @@
 
-# BloggerApp
+# 📘 BloggerApp
 
-A clean React application demonstrating:
-- Conditional rendering (shown earlier)
-- Rendering multiple components together
-- Using `map()` with keys
-- Custom CSS styling to create a blogger-style dashboard
+A structured and visually clean ReactJS application developed as part of a hands-on lab exercise.
+This project demonstrates the use of **conditional rendering**, **component composition**, and **list rendering** using the `map()` function with keys, enhanced by custom CSS for a professional "blogger-style" layout.
 
-## 📌 Features
-- Three sections always visible side by side:
-  - **Course Details**
-  - **Book Details**
-  - **Blog Details**
-- Clear typography hierarchy:
-  - Big section titles
-  - Medium item titles
-  - Bold author names
-  - Smaller dates, prices, and descriptions
-- Clean white cards with green left border
+---
 
-## ✏ **Components**
-- `CourseDetails.js`: lists course name & date
-- `BookDetails.js`: lists book title & price
-- `BlogDetails.js`: lists blog title, author & description
+## 🎯 Objectives
 
-## 🎨 **Styling**
-- Simplified CSS:
-  - Section titles: large & green
-  - Item titles: bold and big
-  - Author: bold but smaller
-  - Dates & descriptions: smallest, subtle grey
-- Modern, readable, blogger look
+This application satisfies the following learning goals:
 
+* ✅ Demonstrate conditional rendering in React
+* ✅ Render multiple independent components together
+* ✅ Use of `.map()` and keys to dynamically render data lists
+* ✅ Apply clean and readable CSS styling
 
+---
 
-## 📦 **Installation & Running**
-```bash
-npm install
-npm start
-````
+## 🛠 Features Overview
 
-Open browser at: [http://localhost:3000](http://localhost:3000)
+The UI consists of **three parallel sections** displayed side by side:
 
-## 📷 **Preview**
+| Section               | Description                                     |
+| --------------------- | ----------------------------------------------- |
+| 📚 **Course Details** | Lists course name and date                      |
+| 📘 **Book Details**   | Lists book title and price                      |
+| ✍️ **Blog Details**   | Lists blog title, author, and short description |
 
-![Preview](./preview.png)
+Each card is styled with a **clean white background** and a **green left border**, using a consistent typography hierarchy to distinguish content types.
 
-## ✏ **Details used (as per screenshot):**
+---
 
-| Course Details     | Book Details                    | Blog Details                                                        |
-| ------------------ | ------------------------------- | ------------------------------------------------------------------- |
-| Angular - 4/5/2021 | Master React - 670              | React Learning <br> Stephen Biz <br> Welcome to learning React!     |
-| React - 6/3/20201  | Deep Dive into Angular 11 - 800 | Installation <br> Schewzdenier <br> You can install React from npm. |
-|                    | Mongo Essentials - 450          |                                                                     |
+## 🧩 Components Breakdown
 
-## ✅ **Objective**
+| Component          | Role                                                     |
+| ------------------ | -------------------------------------------------------- |
+| `CourseDetails.js` | Renders a list of course names with associated dates     |
+| `BookDetails.js`   | Renders a list of book titles with pricing information   |
+| `BlogDetails.js`   | Renders blog titles, author names, and blog descriptions |
 
-As per lab:
+---
 
-* Demonstrate conditional rendering
-* Render multiple components
-* Use keys and map()
+## 🎨 Styling Principles
+
+This application follows a modern and clean blogger-style layout with:
+
+* **Section Titles**: Large, green-colored
+* **Item Titles**: Bold and larger than content text
+* **Author Names**: Bold but smaller than titles
+* **Dates, Prices, Descriptions**: Smallest font size in subtle grey
 
 
 
-Built as part of ReactJS hands-on lab.
+Open the app in your browser at:
+👉 [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🖼 Output
+
+### 🧠 App Compiled Successfully in VS Code
+
+![App Compiled](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%207/13.%20ReactJS-HOL/bloggerapp/output/app%20compiled%20on%20VS%20code.png)
+
+### 🖥️ App Running on Localhost
+
+![App Running](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%207/13.%20ReactJS-HOL/bloggerapp/output/app%20running%20on%20local%20host.png)
+
+---
+
+## 📚 Built For
+
+This project was developed as part of the **Week 7 - ReactJS HOL** in the **Cognizant Digital Nurture Program**, specifically aligned with the objectives in:
+
+📄 `13. ReactJS-HOL.pdf` → **BloggerApp**
+
 
