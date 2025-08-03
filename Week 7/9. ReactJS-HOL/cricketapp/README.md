@@ -12,7 +12,6 @@ This project is a **ReactJS application** built as part of the **ES6 + ReactJS H
 - Uses `map()` to display all players.
 - Uses `filter()` and **arrow functions** to show players with score < 70.
 
-```
 
 ### ✅ IndianPlayers Component
 - Two separate arrays: `T20Players` and `RanjiPlayers`
