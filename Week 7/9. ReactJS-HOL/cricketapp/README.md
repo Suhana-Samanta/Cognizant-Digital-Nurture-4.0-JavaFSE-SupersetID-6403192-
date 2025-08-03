@@ -1,84 +1,71 @@
 
-# 🏏 Cricket App -9. React Hands-On 
+# 🏏 Cricket App – 9. ReactJS Hands-On
 
-This project is a **ReactJS application** built as part of the **ES6 + ReactJS Hands-On Lab**. The goal is to demonstrate usage of **ES6 features** like `map()`, arrow functions, destructuring, conditional rendering, and React components.
+This project is a **ReactJS application** built as part of the **ES6 + ReactJS Hands-On Lab**. The goal is to demonstrate usage of **ES6 features** like `map()`, arrow functions, destructuring, conditional rendering, and reusable components.
 
 ---
 
-## 📌 Features Implemented 
+## 📌 Features Implemented
 
 ### ✅ ListofPlayers Component
 - Displays 11 players with their names and scores.
 - Uses `map()` to display all players.
 - Uses `filter()` and **arrow functions** to show players with score < 70.
-- Fully left-aligned with a clean black-and-white UI.
-- Players used:  
-  - Mr. Jack  
-  - Mr. Michael  
-  - Mr. John  
-  - Mr. Ann  
-  - Mr. Elisabeth  
-  - Mr. Sachin  
-  - Mr. Dhoni  
-  - Mr. Virat  
-  - Mr. Jadeja  
-  - Mr. Raina  
-  - Mr. Rohit  
+
 
 ### ✅ IndianPlayers Component
-- Two separate arrays: `T20Players` and `RanjiPlayers`.
-- Uses **ES6 Spread Operator** to merge arrays.
-- Uses **destructuring** and `filter()` to separate:
-  - Odd-position players
-  - Even-position players
-- Merged list displayed with all names prefixed by `Mr.`
+- Two separate arrays: `T20Players` and `RanjiPlayers`
+- Uses **ES6 Spread Operator** to merge both arrays.
+- Uses **destructuring** to extract odd and even team players.
+- Merged list displayed with names prefixed by `Mr.`
 
-#### T20 Players:
-- Virat Kohli  
-- Rohit Sharma  
-- Suryakumar Yadav  
-- Hardik Pandya  
-- Jasprit Bumrah  
-- Ravindra Jadeja  
-- Bhuvneshwar Kumar  
-- Yuzvendra Chahal  
-
-#### Ranji Trophy Players:
-- Sandeep Sharma  
-- Tanush Kotian  
-- Prasidh Krishna  
-- Navdeep Saini  
-- Avesh Khan  
-- Rahul Tewatia  
-- Deepak Hooda  
-- Prithvi Shaw  
 
 ---
 
 ## 🖼️ Interface Preview
 
-- The UI is **black & white themed**.
--
-- A **dropdown selector** allows the user to choose between:
+### ✅ App Running Successfully
+![App Running](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%207/9.%20ReactJS-HOL/cricketapp/Output/successful%20running%20of%20app.png)
+
+### ✅ Dropdown Selector
+![Dropdown](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%207/9.%20ReactJS-HOL/cricketapp/Output/dropdown%20selector.png)
+
+### ✅ List of Indian Players
+![Indian Players](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%207/9.%20ReactJS-HOL/cricketapp/Output/indian%20players.png)
+
+### ✅ List of All Players
+![All Players](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/raw/main/Week%207/9.%20ReactJS-HOL/cricketapp/Output/all%20players.png)
+
+---
+
+## 🎛️ UI Design
+
+- 🔳 **Black & White Theme**
+- 🧲 **Left-Aligned Layout**
+- 📥 **Dropdown selector** with:
   - `-- options --`
   - `List of Players`
   - `List of Indian Players`
+
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **React** (Functional Components)
-- **ES6 Features**:
-  - `map()`
-  - `filter()`
-  - Arrow functions
+- **React** – Functional Components with JSX
+- **ES6 JavaScript**:
+  - Arrow Functions
+  - `map()`, `filter()`
   - Destructuring
-  - Spread operator
-- **CSS**: Custom styling using `App.css`
+  - Spread Operator
+- **CSS** – Custom styling via `App.css`
+
+
+> The app will start on `http://localhost:3000`
 
 ---
 
+<<<<<<< HEAD
 The app will run at `http://localhost:3000`
 
 ---
@@ -93,4 +80,13 @@ The app will run at `http://localhost:3000`
 ---
 
 ## 🏁 Outcome
+=======
+## 📚 Learning Objectives
+
+* Understand key ES6 JavaScript concepts.
+* Practice destructuring, spread, filter, and arrow functions.
+* Create and reuse React components.
+* Apply conditional rendering and simple state toggling.
+* Combine logic and presentation effectively.
+>>>>>>> ea6c2759c83d0e81c17561a275c9d40fa288c04b
 

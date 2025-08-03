@@ -11,11 +11,8 @@ function App() {
       <header className="App-header">
         <h1>React Event Handling Examples</h1>
         <Counter />
-        <hr />
         <Welcome />
-        <hr />
         <SyntheticEvent />
-        <hr />
         <CurrencyConvertor />
       </header>
     </div>

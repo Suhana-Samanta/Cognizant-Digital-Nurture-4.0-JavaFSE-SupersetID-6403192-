@@ -7,8 +7,8 @@ const Welcome = () => {
 
   return (
     <div>
-      <h2>Welcome Button</h2>
-      <button onClick={() => sayWelcome('Welcome')}>Say Welcome</button>
+   
+      <button onClick={() => sayWelcome('welcome')}>Say welcome</button>
     </div>
   );
 };

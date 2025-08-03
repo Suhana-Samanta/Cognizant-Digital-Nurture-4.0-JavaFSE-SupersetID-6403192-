@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import "./App.css";
 import UserPage from "./UserPage";
 import GuestPage from "./GuestPage";
-import "./App.css";
 
 function LoginButton(props) {
   return <button onClick={props.onClick}>Login</button>;
@@ -11,34 +11,48 @@ function LogoutButton(props) {
   return <button onClick={props.onClick}>Logout</button>;
 }
 
+function UserGreeting() {
+  return <h1>Welcome back</h1>;
+}
+
+function GuestGreeting() {
+  return <h1>Please sign up.</h1>;
+}
+
+function Greeting(props) {
+  const isLoggedIn = props.isLoggedIn;
+  if (isLoggedIn) {
+    return <UserGreeting />;
+  }
+  return <GuestGreeting />;
+}
+
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLoginClick = () => {
+    alert("You are now logged in!");
     setIsLoggedIn(true);
   };
 
   const handleLogoutClick = () => {
+    alert("You are now logged out!");
     setIsLoggedIn(false);
   };
 
-  let button;
-  let page;
+  const button = isLoggedIn ? (
+    <LogoutButton onClick={handleLogoutClick} />
+  ) : (
+    <LoginButton onClick={handleLoginClick} />
+  );
 
-  if (isLoggedIn) {
-    button = <LogoutButton onClick={handleLogoutClick} />;
-    page = <UserPage />;
-  } else {
-    button = <LoginButton onClick={handleLoginClick} />;
-    page = <GuestPage />;
-  }
+  const pageContent = isLoggedIn ? <UserPage /> : <GuestPage />;
 
   return (
     <div className="App">
-      <header className="App-header">
-        {page}
-        {button}
-      </header>
+      <Greeting isLoggedIn={isLoggedIn} />
+      {pageContent}
+      {button}
     </div>
   );
 }

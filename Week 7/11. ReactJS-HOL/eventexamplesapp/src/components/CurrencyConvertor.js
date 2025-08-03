@@ -1,40 +1,44 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class CurrencyConvertor extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      rupees: 0,
-      euros: 0
-    };
-  }
+const CurrencyConvertor = () => {
+  const [rupees, setRupees] = useState('');
+  const [euros, setEuros] = useState('');
 
-  handleRupeesChange = (event) => {
-    this.setState({ rupees: event.target.value });
+  const handleRupeesChange = (event) => {
+    setRupees(event.target.value);
   };
 
-  handleSubmit = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
-    // Assuming an exchange rate, e.g., 1 Euro = 90 INR
-    const euroValue = this.state.rupees / 90;
-    this.setState({ euros: euroValue.toFixed(2) });
+    const euroValue = (rupees / 90).toFixed(2);
+    setEuros(euroValue);
+    alert(`Converting to Euro Amount is ${euroValue}`);
   };
 
-  render() {
-    return (
-      <div>
-        <h2>Currency Convertor</h2>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Indian Rupees:
-            <input type="number" value={this.state.rupees} onChange={this.handleRupeesChange} />
-          </label>
-          <button type="submit">Convert</button>
-        </form>
-        <p>{this.state.rupees} INR is equal to {this.state.euros} EUR</p>
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <h2 style={{ color: 'green' }}>Currency Convertor!!!</h2>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Amount:
+          <input
+            type="number"
+            value={rupees}
+            onChange={handleRupeesChange}
+            required
+          />
+        </label>
+        <br />
+        <label>
+          Currency:
+          <input type="text" value="Euro" readOnly />
+        </label>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+      <p>₹{rupees} is equal to €{euros}</p>
+    </div>
+  );
+};
 
 export default CurrencyConvertor;

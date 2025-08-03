@@ -2,15 +2,14 @@ import React from 'react';
 
 const SyntheticEvent = () => {
   const handleClick = (event) => {
-    // 'event' is a SyntheticEvent
-    console.log(event);
-    alert('SyntheticEvent was clicked');
+    console.log(event); // SyntheticEvent logged
+    alert('I was clicked');
   };
 
   return (
     <div>
-      <h2>Synthetic Event Example</h2>
-      <button onClick={handleClick}>Press Me</button>
+ 
+      <button onClick={handleClick}>Click on me</button>
     </div>
   );
 };
