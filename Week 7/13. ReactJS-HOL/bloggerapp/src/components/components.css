@@ -1,0 +1,52 @@
+.box {
+  background: #fff;
+  border-left: 4px solid #2e7d32;
+  padding: 16px 20px;
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+.box h2 {
+  font-size: 1.8rem;            /* really big section title */
+  color: #2e7d32;
+  margin-bottom: 16px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box li {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.box strong {
+  display: block;
+  font-weight: 600;
+  font-size: 1.3rem;           /* clearly big item title */
+  color: #000;
+}
+
+.author {
+  font-weight: 700;            /* bold author */
+  font-size: 1rem;
+  color: #000;
+  margin-top: 2px;
+}
+
+.desc {
+  font-size: 0.8rem;           /* smaller text */
+  color: #555;
+  margin-top: 2px;
+}
+
+.box small {
+  font-size: 0.8rem;           /* for price/date */
+  color: #555;
+  margin-top: 2px;
+}
