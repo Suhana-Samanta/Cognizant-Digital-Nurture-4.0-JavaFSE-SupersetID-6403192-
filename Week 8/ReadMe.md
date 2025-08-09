@@ -5,6 +5,10 @@ This folder contains all the work completed for **Digital Nurture FSE Week 8 Ass
 The exercises were practiced in the `GitDemo` repository on GitLab:
 🔗 **[View GitDemo on GitLab](https://gitlab.com/suhanasamanta2003-group/gitdemo.git)**
 
+### GitLab GitDemo project
+
+![GitLab GitDemo project](https://raw.githubusercontent.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/main/Week%208/5.%20Git-HOL/output/GitLab%20GitDemo%20prject.png)
+
 ---
 
 ## **1. Git-HOL — Familiar with Git Commands**
