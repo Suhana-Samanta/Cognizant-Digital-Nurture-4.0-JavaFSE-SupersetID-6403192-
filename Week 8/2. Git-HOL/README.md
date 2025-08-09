@@ -1,6 +1,6 @@
 
 
-# Git-HOL 2 — Using .gitignore to Ignore Unwanted Files
+# 2.Git-HOL — Using .gitignore to Ignore Unwanted Files
 
 ## Objectives
 
@@ -9,20 +9,15 @@ This repository update was made to demonstrate how to:
 * Explain the purpose of `.gitignore`.
 * Configure `.gitignore` to ignore unwanted files and folders in a Git repository.
 
-In this hands-on lab, I:
-
-* Implemented a `.gitignore` file to exclude `.log` files and a `log` folder from version control.
-* Verified that these files and folders were ignored in the working directory and not staged for commits.
-
 ---
 
 ## Prerequisites
 
-Before starting this lab, I had:
+Before starting this lab, the following were ensured:
 
 * A working Git environment set up.
 * Notepad++ integrated as the default Git editor.
-* An existing Git repository in my local system linked to a remote repository in GitLab.
+* An existing Git repository in the local system linked to a remote repository in GitLab.
 
 ---
 
@@ -30,7 +25,7 @@ Before starting this lab, I had:
 
 ### 1. Created Test Files to Ignore
 
-Inside my Git repository (`GitDemo`), I created:
+Inside the Git repository (`GitDemo`), these files and folders were created:
 
 ```bash
 echo "This is a log file" > debug.log
@@ -38,26 +33,20 @@ mkdir log
 echo "This is inside the log folder" > log/test.txt
 ```
 
-This gave me one `.log` file and a `log` directory with a sample text file.
+This created one `.log` file and a `log` directory with a sample text file.
 
 ---
 
 ### 2. Created and Configured `.gitignore`
 
-I created the `.gitignore` file:
-
-```bash
-touch .gitignore
-```
-
-Then opened it in Notepad++ and added:
+The `.gitignore` file was created and edited to add these rules:
 
 ```
 *.log
 log/
 ```
 
-This configuration ignores:
+This setup ignores:
 
 * Any file ending in `.log`.
 * The entire `log` directory and its contents.
@@ -66,19 +55,13 @@ This configuration ignores:
 
 ### 3. Verified `.gitignore` Behavior
 
-After saving `.gitignore`, I ran:
-
-```bash
-git status
-```
-
-The `.log` file and `log/` folder were not listed as untracked files, confirming they were ignored.
+After saving `.gitignore`, the `git status` command confirmed that `.log` files and the `log/` folder were ignored and not staged.
 
 ---
 
 ### 4. Committed `.gitignore` to the Repository
 
-I staged and committed `.gitignore`:
+The `.gitignore` file was staged and committed:
 
 ```bash
 git add .gitignore
@@ -89,18 +72,26 @@ git commit -m "Add .gitignore to ignore .log files and log folder"
 
 ### 5. Pushed to Remote Repository
 
-Finally, I pushed the change to GitLab:
+The committed `.gitignore` was pushed to the remote GitLab repository:
 
 ```bash
 git push origin master
 ```
 
-The `.gitignore` file is now in the remote repository, ensuring `.log` files and the `log` folder are excluded from future commits.
+---
+
+## Screenshots
+
+![Git Bash showing gitignore commands](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/2.%20Git-HOL/output/gitignore%20command%20through%20git%20bash.png?raw=true)
+*Git Bash displaying commands for creating files and `.gitignore`.*
+
+![.gitignore file in GitDemo folder](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/2.%20Git-HOL/output/gitignore%20file%20in%20GitDemo.png?raw=true)
+*Contents of the `.gitignore` file ignoring `.log` files and the `log` folder.*
 
 ---
 
 ## Outcome
 
-By completing this lab, I successfully configured Git to ignore specific file types and directories, ensuring cleaner version control and preventing unwanted files from being tracked.
+This lab successfully demonstrated how to configure `.gitignore` to exclude specific files and directories, helping keep the Git repository clean and free from unwanted files.
 
 ---
