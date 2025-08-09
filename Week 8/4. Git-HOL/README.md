@@ -10,17 +10,11 @@ This lab demonstrated:
 * How to resolve conflicts using both manual editing and a 3-way merge tool.
 * How to ensure clean commits after conflict resolution.
 
-In this hands-on lab, I:
-
-* Created a conflict between the master branch and a feature branch.
-* Used P4Merge to visualize and resolve the conflict.
-* Updated `.gitignore` to exclude merge backup files.
-
 ---
 
 ## Prerequisites
 
-Before starting this lab, I had:
+Before starting this lab, the following were ensured:
 
 * A working Git environment.
 * P4Merge installed and configured as the default diff/merge tool.
@@ -166,7 +160,27 @@ cat hello.xml
 
 ---
 
+## Screenshots
+
+![Creating GitWork Branch and hello.xml](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/4.%20Git-HOL/output/creating%20a%20bramch%20named%20GitWork%20and%20a%20file%20inside%20named%20hello.xml.png?raw=true)
+
+![Adding hello.xml to master branch](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/4.%20Git-HOL/output/creating%20another%20hello.xml%20to%20master%20branch.png?raw=true)
+
+![Merging branch to master in P4Merge](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/4.%20Git-HOL/output/merging%20branch%20to%20master%20in%20p4merge.png?raw=true)
+
+![P4Merge Tool](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/4.%20Git-HOL/output/p4merge%20tool.png?raw=true)
+
+![Merging in Git Bash](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/4.%20Git-HOL/output/merging%20in%20git%20bash.png?raw=true)
+
+![Deleting Branch and Pushing to GitLab](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/4.%20Git-HOL/output/deleting%20branch%20and%20pushing%20to%20GitLab.png?raw=true)
+
+![GitLab Project Commit](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/4.%20Git-HOL/output/Gitlab%20project%20Commit.png?raw=true)
+
+---
+
 ## Outcome
 
-By completing this lab, I successfully demonstrated how to create and resolve merge conflicts in Git using both CLI and P4Merge. The master branch now contains the resolved `hello.xml`, and merge backup files are ignored to keep the repository clean.
+This lab successfully demonstrated how to create and resolve merge conflicts in Git using both the CLI and P4Merge. The master branch now contains the resolved `hello.xml`, and merge backup files are ignored to keep the repository clean.
+
+---
 
