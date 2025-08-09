@@ -1,5 +1,4 @@
 
-
 # 5.Git-HOL — Clean Up and Push to Remote Git
 
 ## Objectives
@@ -10,22 +9,15 @@ This lab demonstrated:
 * How to synchronize with the remote repository.
 * How to push pending changes to the remote.
 
-In this hands-on lab, I:
-
-* Verified the state of the master branch.
-* Pulled the latest changes from the remote repository.
-* Pushed pending local commits to GitLab.
-* Confirmed the changes were reflected remotely.
-
 ---
 
 ## Prerequisites
 
-Before starting this lab, I had:
+Before starting this lab, the following were ensured:
 
 * A working Git environment.
 * An existing local repository linked to a remote GitLab repository.
-* Completed previous Git hands-on labs, including Git-T03-HOL\_002.
+* Completion of previous Git hands-on labs, including Git-T03-HOL\_002.
 
 ---
 
@@ -58,13 +50,21 @@ git push origin master
 
 ### 5. Verified Changes on GitLab
 
-I opened the GitLab repository in my browser, refreshed the page, and confirmed that the latest commits were visible in the repository's commit history.
+The GitLab repository was opened in a browser, the page was refreshed, and the latest commits were confirmed visible in the repository’s commit history.
+
+---
+
+## Screenshots
+
+![Pushing to Remote Git](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/5.%20Git-HOL/output/pusing%20to%20remote%20git.png?raw=true)
+
+![GitLab GitDemo Project](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/5.%20Git-HOL/output/GitLab%20GitDemo%20prject.png?raw=true)
 
 ---
 
 ## Outcome
 
-By completing this lab, I successfully synchronized my local repository with the remote GitLab repository, ensuring that all changes from Git-T03-HOL\_002 were committed and pushed. The remote repository now reflects the latest updates from my local master branch.
+The local repository was successfully synchronized with the remote GitLab repository, ensuring that all changes from Git-T03-HOL\_002 were committed and pushed. The remote repository now reflects the latest updates from the local master branch.
 
 ---
 
