@@ -1,26 +1,29 @@
+Here’s your markdown with simple captions for each image and no italics, just plain text as requested:
 
-# Familiar with Git Commands
+---
+
+# 1. Git- HOL  Familiar with Git Commands
 
 ## Objectives
 
 This repository was created to practice and become familiar with core Git commands such as:
 `git init`, `git status`, `git add`, `git commit`, `git push`, and `git pull`.
 
-During this hands-on lab, I:
+During this hands-on lab, the following was done:
 
-* Set up Git configuration on my machine.
-* Integrated `notepad++.exe` with Git and set it as the default editor.
-* Added files to a version-controlled repository.
+* Git configuration was set up on the machine.
+* Notepad++ was integrated with Git and set as the default editor.
+* Files were added to a version-controlled repository.
 
 ## Prerequisites
 
-* Installed **Git Bash** on my machine.
-* Installed **Notepad++** and configured it as my Git editor.
+* Git Bash installed on the machine.
+* Notepad++ installed and configured as Git editor.
 
-**Note:**
+Note:
 
-* Created a free account on GitLab (without using Cognizant credentials).
-* The work in this repository is adapted from the *1. Git – Hands-On Lab* exercise.
+* A free GitLab account was created (not using Cognizant credentials).
+* This work is adapted from the 1. Git – Hands-On Lab exercise.
 
 ---
 
@@ -53,8 +56,8 @@ During this hands-on lab, I:
    notepad++
    ```
 
-   Added its path (`C:\Program Files\Notepad++`) to my environment variables.
-2. Set Notepad++ as Git’s editor:
+   Its path was added to environment variables.
+2. Set Notepad++ as Git editor:
 
    ```bash
    git config --global core.editor "C:/Program Files/Notepad++/notepad++.exe -multiInst -nosession"
@@ -67,14 +70,14 @@ During this hands-on lab, I:
 
 ### 3. Created and Managed the Repository
 
-1. Created the repository folder and initialized Git:
+1. Created repository folder and initialized Git:
 
    ```bash
    mkdir MyProject
    cd MyProject
    git init
    ```
-2. Created `welcome.txt` with content:
+2. Created `welcome.txt`:
 
    ```bash
    echo "Welcome to version control" > welcome.txt
@@ -92,13 +95,13 @@ During this hands-on lab, I:
 
 ### 4. Pushed to Remote Repository
 
-1. Created a new empty repository on GitLab named `GitDemo`.
-2. Linked it to my local repository:
+1. Created empty repository named `GitDemo` on GitLab.
+2. Linked local repository to remote:
 
    ```bash
    git remote add origin https://gitlab.com/your-username/gitdemo.git
    ```
-3. Pushed my local work to the remote:
+3. Pushed local commits to remote:
 
    ```bash
    git push origin master
@@ -106,6 +109,17 @@ During this hands-on lab, I:
 
 ---
 
-This repository now contains the completed lab work for **1. Git – Hands-On Lab** and serves as a record of the steps I followed and executed successfully.
+## Screenshots
+
+![Git commands and configuration](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/1.%20Git-HOL/output/git%20commands%20and%20configuration.png?raw=true)
+Git Bash showing Git configuration and editor setup commands.
+
+![Repository creation on GitLab](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/1.%20Git-HOL/output/creation%20of%20repository%20\(project\)%20in%20GitLab.png?raw=true)
+New repository creation page on GitLab.
+
+![GitDemo project on GitLab](https://github.com/Suhana-Samanta/Cognizant-Digital-Nurture-4.0-JavaFSE-SupersetID-6403192-/blob/main/Week%208/1.%20Git-HOL/output/GitDemo%20project%20in%20GitLab.png?raw=true)
+The GitDemo repository dashboard on GitLab.
 
 ---
+
+
